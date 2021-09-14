@@ -8,8 +8,8 @@ Feature: Academy Choucair
     | strUser    | strPassword   |
     | 1016108345 | Choucair2021* |
     When he search for the course on the Choucair Academy platform
-    | strCourse                            |
-    | Recursos Automatización Bancolombia  |
+    | strCourse         |
+    | Foundation Level  |
     Then he finds the course called
-    | strCourse                  |
-    | Recursos Automatización Bancolombia  |
+    | strCourse         |
+    | Foundation Level  |

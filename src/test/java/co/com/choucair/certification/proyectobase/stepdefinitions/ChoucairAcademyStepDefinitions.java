@@ -29,7 +29,7 @@ public class ChoucairAcademyStepDefinitions {
 
 
     @When("^he search for the course on the choucair academy platform$")
-    public void heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(List<AcademyChoucairData> academyChoucairData)
+    public void heSearchForTheCourseOnTheChoucairAcademyPlatform(List<AcademyChoucairData> academyChoucairData)
             throws Exception {
         OnStage.theActorInTheSpotlight().attemptsTo(Search.the(academyChoucairData.get(0).getStrCourse()));
     }
